@@ -1,31 +1,37 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
-h2{
-    text-align: center;
+body {
+  background-color: hsl(205, 86%, 17%);
 }
-.container{
-    border: 2px solid gray;
-    border-radius: 10px;
-    width: 450px;
-    margin: auto;
-    height: 70vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+h2 {
+  text-align: center;
 }
-.underline{
-    margin-bottom: 30px;
-    border-bottom: 2px solid black;
+.container {
+  background-color: hsl(205, 72%, 37%);
+  border: 2px solid gray;
+  border-radius: 10px;
+  width: 450px;
+  margin: auto;
+  height: 80vh;
+  margin-top: 20px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.form-control{
-    margin-bottom: 10px;
-    padding-bottom: 10px;
+.underline {
+  margin-bottom: 30px;
+  border-bottom: 2px solid black;
 }
-.form-control input{
+.form-control {
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+.form-control input {
   border: 2px solid #777;
   width: 100%;
   height: 30px;
@@ -33,42 +39,41 @@ h2{
   border-radius: 5px;
   margin: 3px 7px;
 }
-.form-control input:focus{
-    outline: 0;
-    border: 2px solid #777;
+.form-control input:focus {
+  outline: 0;
+  border: 2px solid #777;
 }
-.form-control label{
-    display: block;
-    color: #777;
+.form-control label {
+  display: block;
+  color: white;
 }
-.alert{
-    border: 2px solid rgb(13, 77, 13);
-    padding: 4px;
-    border-radius: 4px;
-    background-color: rgb(14, 65, 14);
-    color: white;
-    margin-bottom: 5px;
-}.error{
-    border: 2px solid tomato;
-    padding: 4px;
-    border-radius: 4px;
-    background-color: rgb(184, 58, 35);
-    color: white;
+.alert {
+  border: 2px solid rgb(13, 77, 13);
+  padding: 4px;
+  border-radius: 4px;
+  background-color: rgb(14, 65, 14);
+  color: white;
+  margin-bottom: 5px;
 }
-.btn-group{
-    margin-top: 10px;
+.error {
+  border: 2px solid tomato;
+  padding: 4px;
+  border-radius: 4px;
+  background-color: rgb(184, 58, 35);
+  color: white;
 }
-.btn{
-    width: 200px;
-    padding: 10px 6px;
-    background-color: rgb(63, 63, 148);
-    color: white;
-    text-transform: uppercase;
-    border: none;
-    border-radius: 10px;
+.btn-group {
+  margin-top: 10px;
 }
-.btn:hover{
-    background-color: rgb(52, 52, 114);
+.btn {
+  width: 200px;
+  padding: 10px 6px;
+  background-color: hsl(205, 86%, 17%);
+  color: white;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 10px;
 }
-
-/* app.js file below */
+.btn:hover {
+  background-color: rgb(52, 52, 114);
+}
